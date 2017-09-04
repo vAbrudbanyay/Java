@@ -25,4 +25,6 @@ public class Customer {
 		this.retailer = retailer;
 	}
 
+	// This is a change for all developers
+	
 }
