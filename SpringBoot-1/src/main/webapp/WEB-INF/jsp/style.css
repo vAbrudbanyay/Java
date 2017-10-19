@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #FFFFFF;
+}
+
+div {
+	border: 1px dashed #000000;
+	border-radius: 30px;
+	background: #CCCCCC;
+	width: 500px;
+	margin: 40px;
+	padding: 20px;
+	padding-bottom: 5px;
+}
+
+.visszajelzes {
+	border: 1 px solid #FFFFFF;
+	background-color: #FFFFFF;
+	padding: 10px;
+	border-radius: 20px;
+	width: 400px;
+	height: auto;
+}
