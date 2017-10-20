@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Welcome</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!--  <link rel="stylesheet" type="text/css" media="all" -->
+<!--	href="../../css/gtvg.css" th:href="@{/css/gtvg.css}" /> -->
+
+</head>
+
+<body>
+<p>Amount to pay:</p>
+	<form action="#" th:action="@{/confirmation}" method="get">
+		<p>
+			<input type="text" th:name="amountToPay" th:placeholder="860" />
+		</p>
+		<p>
+			<input type="submit" value="Submit" />
+		</p>
+	</form>
+
+</body>
+
+</html>
